@@ -1,2 +1,7 @@
 WebHook
 hihi
+
+<tomcat-users>
+  <!-- Add this line inside the <tomcat-users> tag -->
+  <user username="jenkins" password="jenkins123" roles="manager-script,admin-gui"/>
+</tomcat-users>
